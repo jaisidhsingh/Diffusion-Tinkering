@@ -55,6 +55,18 @@ Epoch 50:
 
 <img src="results/ddpm-stanford-cars/evaluation_samples/eval_epoch_50.png">
 
+### Stable Diffusion v-1.4
+#### Instructions
+To generate an image from a given text prompt using SD, first ``cd src`` and then:
+
+``
+python3 inference.py --diffusion-method=stable-diffision --sd-prompt="your prompt"
+``
+
+#### Results
+By setting ``--sd-prompt`` as ``A realistic LSUN-like bedroom scene`` we get:
+
+<img src="inference/lsun-bedroom-scenes/lsun-bedroom-scenes_1_4.png">
 
 ### Image Inpainting
 Used ``gligen_experiments/inpainting_inference.py`` to add the following in LSUN bedroom scenes:
@@ -77,7 +89,9 @@ Used ``gligen_experiments/inpainting_inference.py`` to add the following in LSUN
 
 #### Results
 An example of the results of inpainting the above objects at the location:
-<img src="annotations/masks/lsun-bedroom-scenes_1_2.png"
+
+<img src="annotations/masks/lsun-bedroom-scenes_1_2.png">
 
 yields these results:
+
 <img src="gligen_inpainting/bedroom_2_results.png">
