@@ -88,7 +88,7 @@ Used ``gligen_experiments/inpainting_inference.py`` to add the following in LSUN
 <img src="inference/inpainting-content/inpainting-content_clothes.png">
 
 #### Results
-An example of the results of inpainting the above objects at the location:
+An example of inpainting the above objects at the location:
 
 <img src="annotations/masks/lsun-bedroom-scenes_1_2.png">
 
