@@ -1,4 +1,4 @@
-# Implementing Popular Generative Diffusion Concepts
+# Implementing Generative Diffusion Models and Concepts
 This is a repository containing my learning and implementation of popular diffusion pipelines with the 
 <a href="https://huggingface.co/docs/diffusers/index">``diffusers``</a> library.
 I also dabble in in-painting experiments with <a href="https://arxiv.org/pdf/2301.07093.pdf">GLIGEN</a>.
